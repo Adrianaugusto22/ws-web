@@ -1,0 +1,11 @@
+.UP {
+    background-color: blue;
+    color: rgb(242, 242, 242);
+    padding: 15px;
+}
+
+.container {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+}

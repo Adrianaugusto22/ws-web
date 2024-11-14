@@ -1,0 +1,16 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    color: aqua;
+}
+
+a {
+    color: rgb(0, 149, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}

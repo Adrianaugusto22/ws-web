@@ -1,0 +1,16 @@
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: rgb(131, 77, 77);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(120, 108, 108);
+}

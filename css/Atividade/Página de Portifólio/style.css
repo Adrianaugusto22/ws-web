@@ -1,0 +1,33 @@
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: aqua;
+}
+
+h3 {
+    color: white;
+    border: 3px aquamarine solid ;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+img {
+    border: 3px aqua solid;
+}

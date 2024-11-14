@@ -1,0 +1,24 @@
+p {
+    border-width: 3px;
+    border-color: blueviolet;
+    border-style: double ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*p {
+    border-right: 20px;
+    border-color: chartreuse;
+    border-style:double
+}*/
+
+/*P {
+    border-width: 2px 4px 6px 8px;
+    border-color: darkmagenta;
+    border-style: dotted;
+    border-radius: 5px 10px 15px 20px ;
+}*/
+
+p {
+    border: 3px red;
+}

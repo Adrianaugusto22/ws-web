@@ -1,0 +1,12 @@
+h2 {
+    background-color: rgb(241, 255, 241);
+    box-sizing: border-box;
+}
+
+h2 {
+    width: 100px;
+    padding: 10px;
+    height: 100px;
+    border: 10px rgb(0, 0, 0) solid;    
+    margin: 10px;
+}

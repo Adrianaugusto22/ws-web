@@ -1,0 +1,16 @@
+h2, h3 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px rgb(0, 0, 0) solid;
+}
+
+h2 {
+    background-color: rgb(231, 82, 82);
+    box-sizing: border-box;
+}
+
+h3 {
+    background-color: rgb(223, 73, 73);
+}
