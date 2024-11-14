@@ -1,0 +1,19 @@
+.num {
+    width: 27px;
+}
+
+.Enviar {
+    background-color: greenyellow;
+}
+
+.Enviar:hover {
+    background-color: rgb(255, 255, 255)
+}
+
+.Resetar {
+    background-color: rgb(255, 0, 0);
+}
+
+.Resetar:hover {
+    background-color: white;
+}

@@ -1,0 +1,15 @@
+.enviar {
+    background-color: rgb(0, 255, 0);
+}
+
+.enviar:hover {
+    background-color: white;
+}
+
+.idade {
+    width: 30px;
+}
+
+.tele {
+    width: 100px;
+}

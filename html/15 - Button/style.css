@@ -1,0 +1,8 @@
+button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+button:hover {
+    color: rgb(255, 0, 0);
+}
