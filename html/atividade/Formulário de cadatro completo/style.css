@@ -8,22 +8,20 @@
     padding: 5px;
 }
 
-.consutas {
-    width: 415PX;
-    padding: 5px;
+.senha {
+    width: 407px;
 }
 
-
-.enviar {
+.cadastrar {
     background-color: rgb(25, 174, 55);
     color: rgb(255, 255, 255);
     width: 70%;
     border-radius: 100px;
     border: none;
-    padding: 7px;
+    padding: 5px;
     
 }
 
-.enviar:hover {
-    background-color: white;
+.cadastrar:hover {
+    background-color: rgb(9, 128, 255);
 }

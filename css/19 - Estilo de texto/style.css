@@ -1,0 +1,53 @@
+.alinhamento-esquerda {
+  text-align: left;
+}
+
+.alinhamento-direita {
+  text-align: right;
+}
+
+.alinhamento-centro {
+  text-align: center;
+}
+
+.alinhamento-justificado {
+  text-align: justify;
+}
+
+.maiusculo {
+  text-transform: uppercase;
+}
+
+.minusculo {
+  text-transform: lowercase;
+}
+
+.pri-maiusculo {
+  text-transform: capitalize;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.sublinhado {
+  text-decoration: underline;
+}
+
+.taxado {
+  text-decoration: line-through;
+}
+
+.espaçamento {
+  line-height: 30px;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+}
+
+.sombra {
+  text-shadow: 0 0 5px red;
+}

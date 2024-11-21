@@ -1,0 +1,25 @@
+.container-cascata {
+    background-color: rgb(122, 237, 116);
+}
+
+.container-cascata {
+    background-color: rgb(22, 255, 10);
+}
+
+.container-cascata {
+    background-color: rgb(15, 153, 8);
+}
+
+#paragrafo-id {
+    background-color: blueviolet;
+}
+
+.paragrafo-class {
+    background-color: aqua;
+}
+
+p {
+    background-color: green !important;
+    color: white;
+}
+
