@@ -1,0 +1,17 @@
+.link {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+.link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: blue;
+}
+
+.link:active {
+    background-color:rgb(136, 136, 233) ;
+}
