@@ -1,0 +1,6 @@
+p {
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 40px;
+    text-shadow: 0 0 5px red;
+}
