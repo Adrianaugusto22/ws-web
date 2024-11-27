@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    display: block;
+    width: 100px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+.inline {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    background-color: chartreuse;
+}

@@ -1,0 +1,11 @@
+.bg {
+    background-color: aqua;
+    width: 400px;
+    height: 450px;
+    background-image: url(./OIP.png);
+    background-repeat: inherit;
+    background-attachment: scroll;
+    background-size: 450px;
+    background-attachment:local ;
+    background-position:  900px;
+}
