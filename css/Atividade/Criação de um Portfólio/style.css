@@ -1,0 +1,63 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+
+
+header {
+    background-color: green;
+    color: white;
+    height: 110px;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 40px;
+}
+
+header p {
+    text-align: center;
+    font-size: 16px;
+}
+
+head {
+    border: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    width: 200px;
+    border: 3px solid green;
+}
+
+.imagem{
+    margin: 0 auto;
+    width: 200px;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 110, 255) ;
+}
+
+a:hover {
+    color: rgb(13, 13, 172);
+}
+
+.link {
+    margin: 0 auto;
+    width:70px;
+}
+
+
