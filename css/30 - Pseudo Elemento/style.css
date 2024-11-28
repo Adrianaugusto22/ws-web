@@ -1,0 +1,43 @@
+    /* estilizar o começo de um texto */
+.antes-depois::before {
+    content: "inicio: ";
+    color: red;
+    font-weight: bold;
+}
+
+    /* estilizar depois de um texto */
+.antes-depois::after {
+    content: " - Fim da mensagem";
+}
+
+    /* estilizar aprimeira letra de um texto */
+.primeira-letra::first-letter  {
+    color: red;
+    font-weight: bold;
+}
+
+    /* estizar a primeira linha de um texto */
+.primeira-linha::first-line {
+    color:red ;
+}
+
+    /* estilizar o placeholder */
+/* #texto::placeholder {
+    color: red;
+} */
+    
+    /* estilizar todos os placeholders do site */
+::placeholder {
+    color: red;
+}
+
+    /* estilizar só os marcadores */
+li::marker{
+    color: red;
+}
+
+    /* estilizar quando seleciona um texto na pagina */
+::selection {
+    color: red;
+}
+
