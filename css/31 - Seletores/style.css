@@ -1,0 +1,57 @@
+    /* seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* seletor por classe */
+.caixa {
+    background-color: red;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+    /* seletor por id */
+#cabecalho {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+    /* seletores com a mesma estiização */
+h1, p {
+    color: white;
+}
+
+    /* combinação de duas classes no mesmo elemento */
+.titulo.destaque {
+    color: red;
+}
+
+    /* seletor por descendencia */
+.conteudo .caixa .container p {
+    color: white;
+}
+
+    /* seletor por filho */
+.caixa >  .texto {
+    font-style: italic;
+    color: white;
+}
+
+    /* seletor por irmão adjacente */
+h2 + p {
+    font-style: italic;
+}
+
+
+.intro ~ p {
+    font-style: italic;
+}
+
+
+input[type="text"] {
+    border: 3px solid red;
+}
