@@ -33,3 +33,15 @@ button:disabled {
     color: white;
     border-radius: 20px;
 }
+
+li:first-child {
+    color: rgb(255, 0, 0);
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: red;
+}
