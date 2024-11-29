@@ -1,0 +1,20 @@
+:root {
+    --cor-primaria: #3448a8;
+    --cor-secundaria: #23f0ff;
+    --medida-padrao: 20px;
+}
+
+p {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+h1 {
+    font-size: var(--medida-padrao);
+    color: var(--cor-secundaria);
+}
+
+h2, h3 {
+    font-size: var(--medida-padrao);
+    color: var(--cor-primaria);
+}

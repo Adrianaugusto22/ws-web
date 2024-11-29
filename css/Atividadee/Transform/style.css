@@ -1,0 +1,6 @@
+.botao:hover {
+    transform: scale(1.6, 1.6);
+    transform: rotate(130deg);
+    animation: girar 900000s infinite linear;
+}
+
