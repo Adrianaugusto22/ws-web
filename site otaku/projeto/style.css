@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-}
-
-
 :root {
     --branco: #fff;
     --branco-secundario: #f9f9f9;
@@ -15,8 +8,8 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    color:var(--branco);
+    background-color:black;
+    color:var(--branco)
 
 }
 
@@ -42,6 +35,21 @@ body {
     font-size: 28px;
 }
 
-.container-imagem {
+.container_imagem {
     margin: 1cm 0 2cm 0;
+}
+
+.container_botao {
+    background-color: var(--botao-laranja);
+    border-radius: 5px;
+    padding: 1cm;
+    color: var(--branco);
+    display: block;
+    text-decoration: none;
+    margin: 1cm;
+}
+
+.container_botao2 {
+    background-color: transparent;
+    border: 2px solid var(--branco);
 }
