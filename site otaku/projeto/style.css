@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+:root {
+    --branco: #fff;
+    --branco-secundario: #f9f9f9;
+    --botao-laranja:#ff740a;
+    --cor-de-fundo: #f000;
+    --fonte-primaria: 'bangers';
+    --fonte-secundaria: ;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color:var(--branco);
+
+}
+
+.container {  
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25))  url(./imagens/Background.png) ;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    text-align: center;
+    align-items: center;
+}
+
+.container_caixa {
+    margin: 0 6cm ;
+}
+
+.container_titulo {
+    font-size: 28px;
+}
+
+.container-imagem {
+    margin: 1cm 0 2cm 0;
+}
