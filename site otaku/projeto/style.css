@@ -1,55 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --branco: #fff;
     --branco-secundario: #f9f9f9;
-    --botao-laranja:#ff740a;
-    --cor-de-fundo: #f000;
-    --fonte-primaria: 'bangers';
-    --fonte-secundaria: ;
+    --botao-laranja: #ff740a;
+    --cor-de-fundo: #170A00;
+    --fonte-primaria: "Bangers";
+    --fonte-secundaria: "Roboto";
 }
 
 body {
-    background-color:black;
-    color:var(--branco)
-
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: var(--branco);
 }
 
-.container {  
+.container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
 .principal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25))  url(./imagens/Background.png) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)) ,url("./imagens/Background.png");
     background-repeat: no-repeat;
-    background-size: contain ;
-    text-align: center;
+    background-size: contain;
     align-items: center;
+    text-align: center;
 }
 
-.container_caixa {
-    margin: 0 6cm ;
+.container__caixa {
+    margin: 0 6cm;
 }
 
-.container_titulo {
+.container__titulo {
     font-size: 28px;
 }
 
-.container_imagem {
+.container__imagem {
     margin: 1cm 0 2cm 0;
 }
 
-.container_botao {
+.container__botao {
     background-color: var(--botao-laranja);
     border-radius: 5px;
-    padding: 1cm;
+    padding: 1em;
     color: var(--branco);
     display: block;
     text-decoration: none;
-    margin: 1cm;
+    margin: 1em;
 }
 
-.container_botao2 {
+.container__botao2 {
     background-color: transparent;
     border: 2px solid var(--branco);
+    color: var(--branco);
+    display: inline-block;
+}
+
+.container__aviso {
+    font-size: 12px;
+}
+
+.secundaria {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundaria__imagem {
+    width: 80%;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.descricao__paragrafo {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.descricao__texto {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.descricao__botao {
+    display: inline-block ;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.lista__dispositivos {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.fim {
+    text-align: center;
+}
+
+.imagem__otaku {
+    margin-bottom: 1em;
+}
+
+.lista__opcaoes {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.lista__link {
+    margin: 0, 0.5em;
 }
